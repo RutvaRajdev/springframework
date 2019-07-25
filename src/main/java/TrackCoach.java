@@ -1,5 +1,10 @@
 public class TrackCoach implements Coach{
 
+    public TrackCoach(FortuneService fortuneService) {
+        this.fortuneService = fortuneService;
+    }
+
+    private FortuneService fortuneService;
 
     @Override
     public String getDailyWorkout() {
@@ -8,6 +13,6 @@ public class TrackCoach implements Coach{
 
     @Override
     public String getDailyFortune() {
-        return null;
+        return fortuneService.getFortune();
     }
 }

@@ -14,7 +14,7 @@
 
     <!-- Define beans -->
     <bean id="myCoach"
-          class="BaseballCoach">
+          class="CricketCoach">
 
           <!-- Setup constructor Injection -->
           <constructor-arg ref="myFortune" />

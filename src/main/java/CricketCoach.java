@@ -1,4 +1,11 @@
 public class CricketCoach implements Coach {
+
+    private FortuneService fortuneService;
+
+    public CricketCoach(FortuneService fortuneService) {
+        this.fortuneService = fortuneService;
+    }
+
     @Override
     public String getDailyWorkout() {
         return "Practice 5 overs worth bowling in the nets";
@@ -6,6 +13,6 @@ public class CricketCoach implements Coach {
 
     @Override
     public String getDailyFortune() {
-        return null;
+        return fortuneService.getFortune();
     }
 }
