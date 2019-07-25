@@ -2,7 +2,7 @@ public class BasketballCoach implements Coach {
     FortuneService fortuneService;
 
     BasketballCoach() {
-        System.out.println("Inside Basketball coach default constructor");
+        //System.out.println("Inside Basketball coach default constructor");
     }
 
     @Override
@@ -16,7 +16,7 @@ public class BasketballCoach implements Coach {
     }
 
     public void setFortuneService(FortuneService theFortuneService) {
-        System.out.println("Inside set fortune in basketball coach");
+        //System.out.println("Inside set fortune in basketball coach");
         this.fortuneService = theFortuneService;
     }
 }

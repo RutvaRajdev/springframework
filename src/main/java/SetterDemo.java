@@ -9,9 +9,13 @@ public class SetterDemo {
                 new FileSystemXmlApplicationContext("src/applicationContext.xml");
 
         // Retrieve bean from container
-        Coach basketballCoach  = context.getBean("myBasketballCoach", BasketballCoach.class);
+        CricketCoach CricketCoach  = context.getBean("myCricketCoach", CricketCoach.class);
 
         // Call methods on bean
-        System.out.println(basketballCoach.getDailyWorkout());
+        System.out.println(CricketCoach.getDailyWorkout());
+        System.out.println(CricketCoach.getName());
+        System.out.println(CricketCoach.getTeam());
+        System.out.println(CricketCoach.getDailyFortune());
+
     }
 }

@@ -13,11 +13,13 @@
     </bean>
 
     <!-- Define beans -->
-    <bean id="myCoach"
+    <bean id="myCricketCoach"
           class="CricketCoach">
 
           <!-- Setup constructor Injection -->
           <constructor-arg ref="myFortune" />
+          <property name="name" value="Ravi Shashtri" />
+          <property name="team" value="India" />
     </bean>
 
     <bean id="myBasketballCoach"
