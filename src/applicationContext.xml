@@ -7,6 +7,8 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
+    <context:property-placeholder location="sport.properties"/>
+
     <!-- Define the Dependency -->
     <bean id="myFortune"
           class="HappyFortuneService">
@@ -18,8 +20,8 @@
 
           <!-- Setup constructor Injection -->
           <constructor-arg ref="myFortune" />
-          <property name="name" value="Ravi Shashtri" />
-          <property name="team" value="India" />
+          <property name="name" value="${foo.name}" />
+          <property name="team" value="${foo.team}" />
     </bean>
 
     <bean id="myBasketballCoach"
