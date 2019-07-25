@@ -11,7 +11,7 @@
 
     <!-- Define the Dependency -->
     <bean id="myFortune"
-          class="HappyFortuneService">
+          class="RandomFortuneService">
     </bean>
 
     <!-- Define beans -->
