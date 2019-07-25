@@ -2,9 +2,9 @@ public class MyApp {
     public static void main(String[] args) {
 
         // Create Object
-        Coach baseballCoach = new BaseballCoach();
+        Coach TrackCoach = new TrackCoach();
 
         // Use object
-        System.out.println(baseballCoach.getDailyWorkout());
+        System.out.println(TrackCoach.getDailyWorkout());
     }
 }
