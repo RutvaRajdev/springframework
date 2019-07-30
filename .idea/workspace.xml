@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98c383be-f7de-4523-ae6e-3e2e83f562ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/beanScope-applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BeanScopeDemoApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/beanScope-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/beanScope-applicationContext.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,16 +26,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/beanScope-applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="264">
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/BeanScopeDemoApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
@@ -97,8 +93,8 @@
         <option value="$PROJECT_DIR$/sport.properties" />
         <option value="$PROJECT_DIR$/src/main/java/RandomFortuneService.java" />
         <option value="$PROJECT_DIR$/src/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/beanScope-applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/BeanScopeDemoApp.java" />
+        <option value="$PROJECT_DIR$/src/beanScope-applicationContext.xml" />
       </list>
     </option>
   </component>
@@ -251,12 +247,12 @@
       <workItem from="1564407766099" duration="189000" />
       <workItem from="1564418755663" duration="50000" />
       <workItem from="1564497316020" duration="1006000" />
-      <workItem from="1564498355548" duration="511000" />
+      <workItem from="1564498355548" duration="633000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22645000" />
+    <option name="totallyTimeSpent" value="22767000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="676" y="0" width="696" height="736" extended-state="0" />
@@ -454,13 +450,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/beanScope-applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BeanScopeDemoApp.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -468,6 +457,13 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/beanScope-applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>

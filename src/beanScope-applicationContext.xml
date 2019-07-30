@@ -15,7 +15,8 @@
     </bean>
 
     <bean id="myTrackCoach"
-          class="TrackCoach">
+          class="TrackCoach"
+          scope="prototype">
         <constructor-arg ref="myFortune" />
     </bean>
 
